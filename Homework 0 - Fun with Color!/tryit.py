@@ -7,6 +7,11 @@ for row in range(im.h):
         set_pixel(im, col, row, 0, 0)
 save_image(im, "result/dog_no_red")
 
+# 2. Copying images
+im = load_image("data/dog.jpg")
+copy = copy_image(im)
+save_image(copy, "result/dog_no_red_copy")
+
 # 3. Grayscale image
 im = load_image("data/colorbar.png")
 graybar = rgb_to_grayscale(im)

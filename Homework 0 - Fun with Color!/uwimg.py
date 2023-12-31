@@ -33,6 +33,10 @@ get_pixel.restype = c_float
 set_pixel = lib.set_pixel
 set_pixel.argtypes = [IMAGE, c_int, c_int, c_int, c_float]
 
+copy_image = lib.copy_image
+copy_image.argtypes = [IMAGE]
+copy_image.restype = IMAGE
+
 rgb_to_grayscale = lib.rgb_to_grayscale
 rgb_to_grayscale.argtypes = [IMAGE]
 rgb_to_grayscale.restype = IMAGE
