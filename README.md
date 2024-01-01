@@ -3,4 +3,4 @@ This project aims to teach me image processing as well as newer, machine-learnin
 
 
 #
-Special thanks to Joseph Redmon for the [Computer Vision course](https://www.youtube.com/playlist?list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p).
+Special thanks to Joseph Redmon for [The Ancient Secrets of Computer Vision course](https://www.youtube.com/playlist?list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p).
